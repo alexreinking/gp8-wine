@@ -1,0 +1,5 @@
+# Guitar Pro installer (obtain it yourself and put it next to install.sh)
+*.exe
+*.msi
+# Extracted from the installed executable; proprietary
+build/

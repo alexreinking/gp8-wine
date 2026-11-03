@@ -1,0 +1,10 @@
+[Unit]
+Description=Inhibit screen lock while Guitar Pro plays audio
+After=pipewire.service
+
+[Service]
+ExecStart=@BINDIR@/gp-inhibit.sh
+Restart=on-failure
+
+[Install]
+WantedBy=default.target
